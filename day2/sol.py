@@ -38,9 +38,9 @@ def solve(lines: list) -> int:
 
     return count
 
+
 lines = read_file("data.txt")
 print(solve(lines))
-
 
 """
 7 6 4 2 1: Safe without removing any level.
