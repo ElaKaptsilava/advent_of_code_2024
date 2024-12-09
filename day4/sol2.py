@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from day4.sol1 import rotate_matrix_90, read_data
+from day4.sol1 import read_data
 
 
 def find_xmas(data):
