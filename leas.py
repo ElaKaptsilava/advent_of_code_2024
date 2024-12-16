@@ -58,9 +58,10 @@ if __name__ == '__main__':
     leas = Leasing(
         year_per=5.81,
         auto=auto,
-        first_fee_per=30,
+        first_fee_per=25,
         last_fee_per=1,
         months_number=36
     )
     print(leas.calculate_rate_netto())
     print(leas.calculate_first_fee_brutto())
+    print(leas.calcu)
